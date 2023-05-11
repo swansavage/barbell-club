@@ -1,6 +1,7 @@
 body {
-    font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    font-family: proxima-nova, sans-serif;
+    background-color: #efeade;
+    color:#020203;
   }
   
   * {
@@ -9,6 +10,14 @@ body {
     box-sizing: border-box;
   
   }
+
+  a {
+    color: #020203;
+  }
+
+  /* a:visited {
+    color: #020203;
+  } */
   
   ::-webkit-scrollbar {
     width: 0px;
@@ -54,11 +63,11 @@ body {
   }
   
   .hero-banner-img {
-    position: absolute;
+    
     right: 40px;
     top: 0px;
-    width: 700px;
-    height: 900px;
+    width: 400px;
+   
     margin-top: -330px;
   
   }
